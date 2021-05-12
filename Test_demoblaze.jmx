@@ -146,7 +146,7 @@ Long executionTime = new Date().getTime() - Long.parseLong(startTime)
 
 log.info(&quot;Execution Time : &quot; + executionTime);
 
-Long pacing = 60000 - executionTime;
+Long pacing = 30000 - executionTime;
 log.info(&quot;Pacing : &quot; + pacing);
 
 if(pacing &gt; 0){
